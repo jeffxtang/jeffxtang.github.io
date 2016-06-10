@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-        <!--<nav>
-            <ul>
-                <li><a href="/">Intro</a></li>
-                <li><a href="/start">Quick Start</a></li>
-                <li><a href="/demo">Demo</a></li>
-                <li><a href="/faq">FAQ</a></li>
-            </ul>
-        </nav>-->
+
         <div class="container">
-            <div class="blurb">
-                <h1>About Eaasly Village iOS App</h1>
-                <p>The universal Eaasly Village iOS App is designed for students to easily use their iPads or iPhones to learn anytime, anywhere, and for teachers to communicate with students. </p>
-            </div><!-- /.blurb -->
+            <ul class="posts">
+              {% for post in site.posts %}
+                <li>
+                  <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  <br>
+                  {{ post.excerpt }}
+                </li>
+              {% endfor %}
+            </ul>
+
         </div><!-- /.container -->
