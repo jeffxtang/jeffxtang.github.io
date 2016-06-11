@@ -8,8 +8,7 @@
 # Site settings
 title: Jeff Tang's Blog
 email: jeffxtang@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Machine Learning and AI: Ideas, Examples, and Apps
+description: "Machine Learning and AI: Ideas, Examples, and Apps"
 topics: Machine Learning and AI
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
