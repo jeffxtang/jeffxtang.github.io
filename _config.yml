@@ -8,12 +8,13 @@
 # Site settings
 title: Jeff Tang's Blog
 email: jeffxtang@gmail.com
-description: "Machine Learning and AI: Ideas, Examples, and Apps"
-topics: Machine Learning and AI
+description: "AI - ML, NLP and CV: Ideas, Examples, and Apps"
+topics: "ML, NLP, CV and AI"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
 twitter_username: jeffxtang
 github_username:  jeffxtang
 
 # Build settings
+#markdown: redcarpet
 markdown: kramdown

@@ -2,9 +2,11 @@
 layout: post
 comments: true
 title:  "Word Embeddings: What, Why and How"
-date:   2016-06-11 22:00:00
+date:   2017-06-11 22:00:00
 categories: deep learning
 ---
+
+WHEN IN DOUBT, START FROM SCRATCH, START WITH FIRST PRINCIPLES.
 
 1. The Google's ```word2vec``` tool - https://code.google.com/archive/p/word2vec/ and https://github.com/dav/word2vec
 
@@ -176,6 +178,16 @@ Enter word or sentence (EXIT to break):
 4. References:
 - [Representing Words](http://veredshwartz.blogspot.co.il/2016/01/representing-words.html)
 - [word2vec in Java](http://deeplearning4j.org/word2vec.html)
+- [Word2Vec Introduction in Python - example not complete](http://www.folgertkarsdorp.nl/word2vec-an-introduction/)
+  - complete the example; fully understand "the posterior probability of an output word given some input word"...
+- [word2vec Parameter Learning Explained](http://arxiv.org/pdf/1411.2738v4.pdf)
+- [Distributed Representations of Sentences and Documents](https://github.com/fbkarsdorp/doc2vec/blob/master/doc2vec.ipynb)
+
+- [Nice example on word2vec](https://iksinc.wordpress.com/tag/continuous-bag-of-words-cbow/)
+
+TODO: implement word 2 vec from scratch, using one word continuous-bag-of-words.
+
+
    * representing words
    * representing animals
    * representing people
