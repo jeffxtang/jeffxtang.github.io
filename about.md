@@ -13,3 +13,4 @@ I fell in love with AI and NLP more than two decades ago - yes that says how old
 So why am I doing this? For the pure love of AI, for the belief that something greater will come out AI and the committed love of it, and for the hope that stories about the love and journey will benefit people who share the same love for AI.
 
 May 14, 2016
+Silicon Valley
