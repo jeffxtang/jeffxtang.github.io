@@ -8,7 +8,7 @@
 # Site settings
 title: Jeff Tang's Blog
 email: jeff@ailabby.com
-description: "AI - ML, NLP and CV: Ideas, Examples, and Apps"
+description: "AI - ML, NLP and CV: Problems and Solutions"
 topics: "ML, NLP, CV and AI"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
