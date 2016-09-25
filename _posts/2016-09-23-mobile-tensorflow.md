@@ -72,19 +72,19 @@ NSString* labels_path = FilePathForResourceName(@"imagenet_comp_graph_label_stri
 ```
 * Replace the following lines:
 ```
-    const int wanted_width = 224;
-    const int wanted_height = 224;
-    const int wanted_channels = 3;
-    const float input_mean = 117.0f;
-    const float input_std = 1.0f;
+const int wanted_width = 224;  
+const int wanted_height = 224;  
+const int wanted_channels = 3;  
+const float input_mean = 117.0f;  
+const float input_std = 1.0f;  
 ```
 with:
 ```
-const int wanted_width = 299;
-const int wanted_height = 299;
-const int wanted_channels = 3;
-const float input_mean = 128.0f;
-const float input_std = 128.0f;
+const int wanted_width = 299;  
+const int wanted_height = 299;  
+const int wanted_channels = 3;  
+const float input_mean = 128.0f;  
+const float input_std = 128.0f;  
 ```
 For more info, see this [github issue](https://github.com/tensorflow/tensorflow/issues/2883).
 * Replace:
