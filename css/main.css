@@ -99,10 +99,10 @@ code {
 }
 
 code {
+  white-space: pre-wrap;
   padding: 1px 5px; }
 
 pre {
-  white-space: pre-wrap;
   padding: 8px 12px;
   overflow-x: auto; }
   pre > code {
