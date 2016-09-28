@@ -102,5 +102,3 @@ Note the names of input_layer and out_layer are used when running the strip_unus
 With these changes, if you use a dog image instead of the default `grace_hopper.jpg` in `NSString* image_path = FilePathForResourceName(@"grace_hopper", @"jpg");` in RunModelViewController.mm, you can run the "simple" app and get the dog breed prediction on your iPhone, and the accuracy would be the same as running the `label_image` script in step 4 on your computer.
 
 To check out my freely available dog breed recognition iPhone app in App Store, using the quantized stripped retrained model, built by following the exact steps above, get it [here](https://itunes.apple.com/us/app/dog-breeds-recognition-powered/id1150923794?mt=8). It's pretty cool to see TensorFlow finally working on my iPhone to solve a real problem, even without Internet connection, after all those steps and months of disillusion, patience, hope, and hard work. Now you can easily replace the dog dataset with another dataset of your interest, such as flowers and plants, to develop your own fun iOS apps.
-
-jeff@ailabby.com
