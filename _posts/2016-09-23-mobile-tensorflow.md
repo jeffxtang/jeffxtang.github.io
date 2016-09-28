@@ -103,4 +103,4 @@ With these changes, if you use a dog image instead of the default `grace_hopper.
 
 To check out my freely available dog breed recognition iPhone app in App Store, using the quantized stripped retrained model, built by following the exact steps above, get it [here](https://itunes.apple.com/us/app/dog-breeds-recognition-powered/id1150923794?mt=8). It's pretty cool to see TensorFlow finally working on my iPhone to solve a real problem, even without Internet connection, after all those steps and months of disillusion, patience, hope, and hard work. Now you can easily replace the dog dataset with another dataset of your interest, such as flowers and plants, to develop your own fun iOS apps.
 
-Any comments or questions? Please feel free to contact me at jeff@ailabby.com.
+jeff@ailabby.com
