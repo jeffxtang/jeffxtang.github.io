@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jeff Tang's Blog
+title: Jeff Tang's AI Blog
 email: jeff@ailabby.com
-description: "AI - ML, NLP and CV: Problems and Solutions"
-topics: "ML, NLP, CV and AI"
+description: "AI - Deep Learning, Reinforcement Learning, and Inference: Problems and Solutions"
+topics: "DL, RL, NLP and AI"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
 twitter_username: jeffxtang
