@@ -8,8 +8,8 @@
 # Site settings
 title: Jeff Tang's AI Blog
 email: jeff@ailabby.com
-description: "AI - Deep Learning, Reinforcement Learning, and Inference: Problems and Solutions"
-topics: "DL, RL, NLP and AI"
+description: "AI - Deep Learning and Reinforcement Learning: Problems and Solutions"
+topics: "DL, RL and Mobile"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
 twitter_username: jeffxtang
