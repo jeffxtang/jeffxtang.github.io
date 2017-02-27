@@ -9,7 +9,7 @@
 title: Jeff Tang's AI Blog
 email: jeff@ailabby.com
 description: "AI - Deep Learning and Reinforcement Learning: Problems and Solutions"
-topics: "Deep Learning, Reinforcement Learning and More"
+topics: "DL, RL, and Apps"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
 twitter_username: jeffxtang
