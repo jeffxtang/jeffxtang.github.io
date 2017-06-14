@@ -27,11 +27,11 @@ Guess I have to accept a server based solution for now, like the app from DeepAr
 
 2. Run `setup.sh` to download the pre-trained VGG model and the training dataset. Then run the following commands on a Terminal to create the checkpoint files containing both the graph and network parameter values (details are available [the github repo](https://github.com/jeffxtang/fast-style-transfer)'s "Training Style Transfer Networks" step):
 
-```
-mkdir checkpoints
-mkdir test-dir
-python style.py --style images/udnie.jpg --test images/ww1.jpg --test-dir test_dir --content-weight 1.5e1 --checkpoint-dir checkpoints --checkpoint-iterations 1000 --batch-size 10
-```
+  ```
+  mkdir checkpoints
+  mkdir test-dir
+  python style.py --style images/udnie.jpg --test images/ww1.jpg --test-dir test_dir --content-weight 1.5e1 --checkpoint-dir checkpoints --checkpoint-iterations 1000 --batch-size 10
+  ```
 
 3. Run `mkdir checkpoints_ios` and uncomment the two lines of code in `evaluate.py`:
 ```
