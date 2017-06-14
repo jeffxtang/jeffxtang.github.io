@@ -14,7 +14,7 @@ Maybe indeed I have a deep liking for the cave-living lifestyle, or maybe it's j
 
 Guess I have to accept a server based solution for now, like the app from DeepArt.io (somehow I found a couple of server-based neural style iOS apps at the time)? Then I don't know if it's good luck or a little bit more perseverance, I came across a Logan Engstrom's [Fast Style Transfer in TensorFlow](https://github.com/lengstrom/fast-style-transfer) project and, from there, Justin John's paper [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155) in March 2016, which states that "Compared to the optimization-based method, our network gives similar qualitative results but is three orders of magnitude faster." Three orders of magnitude - that's like 1,000 times faster! After about a week of reading the paper, debugging the code, dreaming and thinking about it last thing before going to sleep and first thing after waking up, I figured out how to build an iOS app that can add amazing styles to photos in about 7-8 seconds, without the need of an Internet connection, and each style, after the process of training, frozen and quantized, only adds about 1.7MB to an iOS app. Here's how (the TensorFlow version I tested with is 0.12):
 
-1. Get the repo at `https://github.com/jeffxtang/fast-style-transfer` which is a fork of Fast Style Transfer in TensorFlow, added with the iOS offline support:
+1. Get the repo [here](https://github.com/jeffxtang/fast-style-transfer) which is a fork of Fast Style Transfer in TensorFlow, added with the iOS offline support summarized as follows:
   * Replaced in `transform.py` the line `preds = tf.nn.tanh(conv_t3) * 150 + 255./2` with `preds = tf.add(tf.nn.tanh(conv_t3) * 150,  255. / 2, name="preds")` so we can refer to the output result using the name `preds`;
   * Added in `evaluate.py` the following lines after loading the trained checkpoint generated when running `style.py`:
   ```
@@ -25,9 +25,15 @@ Guess I have to accept a server based solution for now, like the app from DeepAr
   * A Python script to freeze the trained checkpoint with input image placeholder and output image name;
   * iOS sample code that sends the input image and processes the output stylized image: the returned stylized image bitmap data gets converted to UIImage in the `tensorToBuffer` function.
 
-2. Run `setup.sh` to download the pre-trained VGG model and the training dataset, then follow the step in "Training Style Transfer Networks" to run `style.py`, which will create the checkpoint files containing both the graph and network parameter values.
+2. Run `setup.sh` to download the pre-trained VGG model and the training dataset. Then run the following commands on a Terminal to create the checkpoint files containing both the graph and network parameter values (details are available [the github repo](https://github.com/jeffxtang/fast-style-transfer)'s "Training Style Transfer Networks" step):
 
-3. Create a new folder named `checkpoints_ios` and uncomment the two lines of code in `evaluate.py`:
+```
+mkdir checkpoints
+mkdir test-dir
+python style.py --style images/udnie.jpg --test images/ww1.jpg --test-dir test_dir --content-weight 1.5e1 --checkpoint-dir checkpoints --checkpoint-iterations 1000 --batch-size 10
+```
+
+3. Run `mkdir checkpoints_ios` and uncomment the two lines of code in `evaluate.py`:
 ```
 # saver = tf.train.Saver()
 # saver.save(sess, "checkpoints_ios/fns.ckpt")
@@ -35,14 +41,14 @@ Guess I have to accept a server based solution for now, like the app from DeepAr
 
 4. Run `evaluate.py` as follows to generate a new checkpoint with input image placeholder and output image name:
 ```
-python evaluate.py --checkpoint checkpoints_ios/model.ckpt \
+python evaluate.py --checkpoint checkpoints \
   --in-path  examples/content/dog.jpg \
   --out-path examples/content/dog-output.jpg
 ```
 
 5. Run `python freeze.py --model_folder=checkpoints_ios --output_graph fst_frozen.pb` to build a .pb file which combines the graph and the parameter values in the checkpoint. This will create a .pb file of about 6.7MB.
 
-6. Copy the `fst_frozen.pb` file to /tf_files, then in your TensorFlow source directory, run `bazel-bin/tensorflow/tools/quantization/quantize_graph --input=/tf_files/fst_frozen.pb  --output_node_names=preds --output=/tf_files/fst_frozen_quantized.pb --mode=weights`. This is the same step as step 6 of my other blog [What Kind of Dog Is It - Using TensorFlow on Mobile Device](http://jeffxtang.github.io/deep/learning,/tensorflow,/mobile,/ai/2016/09/23/mobile-tensorflow.html) and will reduce the size of the .pb file to about 1.7MB, which means that for an app size of about 135MB, the size of the Prisma app, you can put in about 60 styles for offline processing (the TensorFlow iOS library takes more than 20MB).
+6. Copy the `fst_frozen.pb` file to /tf_files, then cd to your TensorFlow source directory, run `bazel-bin/tensorflow/tools/quantization/quantize_graph --input=/tf_files/fst_frozen.pb  --output_node_names=preds --output=/tf_files/fst_frozen_quantized.pb --mode=weights`. This is the same step as step 6 of my other blog [What Kind of Dog Is It - Using TensorFlow on Mobile Device](http://jeffxtang.github.io/deep/learning,/tensorflow,/mobile,/ai/2016/09/23/mobile-tensorflow.html) and will reduce the size of the .pb file to about 1.7MB, which means that for an app size of about 135MB, the size of the Prisma app, you can put in about 60 styles for offline processing (the TensorFlow iOS library takes more than 20MB).
 
 7. Drag and drop the `fst_frozen_quantized.pb` file to the TensorFlow sample iOS Simple project or your own iOS app and refer to this repo's iOS sample, modified based on the TensorFlow iOS simple project example, to see how to run a session with an image input and get and process the output stylized image. To check out the iOS sample, copy the `ios_simple_fst` folder to your TensorFlow source root's `tensorflow/contrib/ios_examples` folder (because our project refers relatively to the TensorFlow source and the library built there) and launch the Xcode project and run the app on iOS simulator or device to see the effect of adding the trained style filter in the `fst_frozen_quantized.pb` to input images. Just tap on the "Run Model" button and you'll see one of the the three images included in the project stylized in about 7 seconds.
 
