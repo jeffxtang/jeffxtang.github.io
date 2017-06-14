@@ -6,7 +6,7 @@ date:   2017-02-19 13:00:00
 categories: CNN, Deep Learning, AI, iOS, TensorFlow
 ---
 
-**Update June 13, 2017** Basde on user feedback, I've updated [the code](https://github.com/jeffxtang/fast-style-transfer) and this blog after testing steps 2-6 on both TensorFlow 0.12 (again) and TensorFlow 1.1, and running the iOS app in step 7 with the TensorFlow 1.0 source.
+[**Update June 13, 2017** Based on user feedback, I've updated [the code](https://github.com/jeffxtang/fast-style-transfer) and this blog after testing steps 2-6 on both TensorFlow 0.12 (again) and TensorFlow 1.1, and running the iOS app in step 7 with the TensorFlow 1.0 source.]
 
 
 Believe it or not, yesterday, Feb 18, 2017, was the first time I heard of and tried on my iPhone the Prisma app, an AI-based offline photo app with lots of art filters, and Apple's App of the Year 2016. Sorry to disappoint you with my seemingly cave-living life (now I know that the Prisma app has been covered by "[Hundreds of Publications, With the Number Soaring Daily](http://prisma-ai.com/)"), but since you found me, I'll reward you with a step-by-step guide on how to develop an iOS app just like Prisma, with regards to its deep learning and AI aspect - the iOS UI part I'd assume is easy for you.
