@@ -6,6 +6,9 @@ date:   2017-02-19 13:00:00
 categories: CNN, Deep Learning, AI, iOS, TensorFlow
 ---
 
+**Update June 13, 2017** Basde on user feedback, I've updated [the code](https://github.com/jeffxtang/fast-style-transfer) and this blog after testing steps 2-6 on both TensorFlow 0.12 (again) and TensorFlow 1.1, and running the iOS app in step 7 with the TensorFlow 1.0 source.
+
+
 Believe it or not, yesterday, Feb 18, 2017, was the first time I heard of and tried on my iPhone the Prisma app, an AI-based offline photo app with lots of art filters, and Apple's App of the Year 2016. Sorry to disappoint you with my seemingly cave-living life (now I know that the Prisma app has been covered by "[Hundreds of Publications, With the Number Soaring Daily](http://prisma-ai.com/)"), but since you found me, I'll reward you with a step-by-step guide on how to develop an iOS app just like Prisma, with regards to its deep learning and AI aspect - the iOS UI part I'd assume is easy for you.
 
 So what did it take for me to figure out all the major deep learning related details and how to run it on iOS quickly and effectively like Prisma? It started with my review of Andrej Karpathy's [CS231n Lecture 9 on Neural Style](https://youtu.be/GHVaaHESrlY?t=52m2s) last month, and this time I decided to look into the details of how neural style gets done. So I read the original paper [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) published in Aug 2015, tried [Justin Johnson's Torch implementation of the algorithm](https://github.com/jcjohnson/neural-style), and [a nice TensorFlow implementation](https://github.com/anishathalye/neural-style). I also played with another simpler implementation, with helpful code comments, of neural style in TensorFlow, called [Neural Style Painting](https://github.com/log0/neural-style-painting).
