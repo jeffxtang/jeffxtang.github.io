@@ -16,3 +16,5 @@ The blog is about my long and exciting journey ahead, with the mobile implementa
 Sept. 5, 2016
 
 jeff@ailabby.com
+
+P.S. The word "labby" in my domain name ailabby.com comes from my sweet and swift Labrador dog which I had in May 2014 when I reconnected with AI. I hope the AI solutions offered via ailabby.com will be as sweet and swift as my Labby, who is sleeping like an angel next to me at this very moment.
