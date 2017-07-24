@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Object Detection: From TensorFlow API to YOLOv2 on iOS"
+title:  "Object Detection: From the TensorFlow API to YOLOv2 on iOS"
 date:   2017-07-23 23:50:00
 categories: deep learning, CNN, object detection, tensorflow, mobile, yolo, yolov2
 ---
