@@ -6,7 +6,10 @@ date:   2017-02-19 13:00:00
 categories: CNN, Deep Learning, AI, iOS, TensorFlow
 ---
 
-**[Update June 13, 2017: Based on user feedback, I've updated [the code](https://github.com/jeffxtang/fast-style-transfer) and this blog after testing steps 2-6 on both TensorFlow 0.12 (again) and TensorFlow 1.1, and running the iOS app in step 7 with the TensorFlow 1.0 source.]**
+**[Update Feb 22, 2018: I'm writing a book on building iOS and Android apps with TensorFlow and one of the chapters I have completed writing has updated info on this model and also a detailed tutorial of using the TensorFlow multiple styled model (stylize_quantized.pb from the official TensorFlow 1.4 and 1.5 example apps), which is a faster and much more powerful model than the model described in this blog, on iOS. So I strongly recommend using the TensorFlow 1.4/1.5 stylize_quantized.pb. You may want to check out the book, which is on [early access with 14-day free trial](https://www.packtpub.com/application-development/intelligent-mobile-projects-tensorflow), for details.**
+
+
+[Update June 13, 2017: Based on user feedback, I've updated [the code](https://github.com/jeffxtang/fast-style-transfer) and this blog after testing steps 2-6 on both TensorFlow 0.12 (again) and TensorFlow 1.1, and running the iOS app in step 7 with the TensorFlow 1.0 source.]**
 
 
 Believe it or not, yesterday, Feb 18, 2017, was the first time I heard of and tried on my iPhone the Prisma app, an AI-based offline photo app with lots of art filters, and Apple's App of the Year 2016. Sorry to disappoint you with my seemingly cave-living life (now I know that the Prisma app has been covered by "[Hundreds of Publications, With the Number Soaring Daily](http://prisma-ai.com/)"), but since you found me, I'll reward you with a step-by-step guide on how to develop an iOS app just like Prisma, with regards to its deep learning and AI aspect - the iOS UI part I'd assume is easy for you.
