@@ -1,3 +1,3 @@
-### Jeff Tang's Blog
+### AILabby.com Blog
 
-DL, RL, NLP and AI: Ideas, Examples, Tutorials, and Apps
+From AI on Mobile to Builing True AI with NLU and Common Sense
