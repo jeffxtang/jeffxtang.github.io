@@ -5,16 +5,8 @@ comments: false
 permalink: /about/
 ---
 
-Inspired by blogs such as [Andrej Karpathy's](http://karpathy.github.io/), [Chris Colah's](http://colah.github.io/) and [Pete Warden's](http://petewarden.com/), I'd like to document my own journey towards working on AI and powering AI on mobile devices so users can benefit from the state of the art AI solutions to their daily problems truly anywhere, anytime.
+I fell in love with the traditional symbolic AI more than two decades ago, and worked on TRANSTAR, the most sucessful English-Chinese machine translation system at the time after getting my master's degree in AI. Then the AI winter came and reality hit. I spent most of the following years on building and leading teams to develop enterprise apps, Windows apps, Internet web apps, and mobile and wearable apps, till about mid 2015 when I reconnected with AI, via Deep Learning. After a lot of dates in the evenings and on weekends, I decided in September 2016 to fully embark on my AI journey and be totally committed to it for the next decade at least. *Still crazy after all these years* seems to be the right song. Maybe I'll indeed do some damage one fine day.
 
-I fell in love with the traditional symbolic AI, including expert systems and NLP, more than two decades ago, then the AI winter came, or reality hit. I spent most of those years on enterprise client/server apps, Windows apps, Internet web apps, and mobile and wearable apps, till about mid 2014 when I reconnected with AI, via Deep Learning. After a lot of dates in the evenings and on weekends, I'm about to fully embark on my AI journey and be totally committed to my dream love, my unwavering passion for the next decade at least, regardless of how the media and the outside world talk about AI these days or how they will in the future. *Still crazy after all these years* seems to be the right song. Maybe I'll indeed do some damage one fine day.
+The blog is about my long and exciting journey ahead, starting with my first goal of building AI solutions on mobile, towards my long-term goal of building true AI systems with natural language understanding and human-like common sense - this is one of the most important and challenging questions facing AI, and seems perfect for someone who's a little crazy and has nothing to lose to dedicate himself to.
 
-The blog is about my long and exciting journey ahead, with the mobile implementation of AI solutions as my focus on one hand, and a problem oriented flavor on the other. Each post will cover a real problem with solution, or a complete example project with its source code repo on Github, in a concise and step-by-step tutorial style. And each post will also be either directly about how to implement an AI solution on mobile devices, or as a step towards that mobile AI solution. I hope this will help make AI truly accessible by anyone, anywhere and anytime. 
-
-*Bon Voyage!*
-
-Sept. 5, 2016
-
-jeff@ailabby.com
-
-P.S. The word "labby" in my domain name ailabby.com comes from my sweet and swift Labrador dog which I had in May 2014 when I reconnected with AI. I hope the AI solutions offered via ailabby.com will be as sweet and swift as my Labby, who is sleeping like an angel next to me at this very moment.
+P.S. The word "labby" in the domain name ailabby.com comes from my Labrador Retriever born in May 2015 when I reconnected with AI. I hope AI systems will be as sweet and swift as my Labby. ailabby also means ai lab and beyond: science based and engineering implementation of innovative and practical true AI systems is my ultimate goal.
