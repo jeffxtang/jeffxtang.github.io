@@ -9,7 +9,7 @@
 title: AILabby: AILab and BeYond
 email: jeff@ailabby.com
 description: "Building True AI with NLU and Common Sense"
-topics: "AI, NLU, Common Sense, World Model"
+topics: "AI, NLU, Common Sense"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
 twitter_username: jeffxtang
