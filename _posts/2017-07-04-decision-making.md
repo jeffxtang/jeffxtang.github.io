@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Decision Making: What, Why and How"
-date:   2020-07-04 00:00:00
+date:   2030-07-04 00:00:00
 categories: math
 ---
 

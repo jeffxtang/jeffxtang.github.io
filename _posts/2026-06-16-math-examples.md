@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "MathJax Examples"
-date:   2020-06-12 22:00:00
+date:   2030-06-12 22:00:00
 categories: math
 ---
 
