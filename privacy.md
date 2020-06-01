@@ -7,6 +7,6 @@
 <p>Our app does not link to any external sites, so there is no concern for privacy whatsoever regarding any third-party sites.</p>
 <p>You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with your desired service. To be more specific, if you choose not to send us your email address, then you will not be able to send us your feedback. </p>
 <p>Your continued use of our app will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
-<p>This policy is effective as of 31 May 2020.</p>
+<p>This policy is effective as of May 31, 2020.</p>
 </body></html>
 
