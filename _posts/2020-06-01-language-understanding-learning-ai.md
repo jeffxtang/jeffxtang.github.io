@@ -6,7 +6,7 @@ date:   2020-06-01 11:59:00
 categories: nlp, nlu, ai, tts, asr, pytorch
 ---
 
-It's been over 2 years since my last post on building mobile AI apps with TensorFlow. A quick recap of what I've been up to during the time, to justify a little bit my mission statement "Building True AI with NLU and Common Sense" or my keeping the domain name:
+It's been over 2 years since my last post on building mobile AI apps with TensorFlow. A quick recap of what I've been up to during the time, to justify a little bit my mission statement "Building True AI with NLU and Common Sense":
 
 * Started learning French by myself in June 2018, for about one hour a day;
 * Did hard thinking on which field of AI I should focus on, and by late 2018, with the release of the Google Bert NLP model and my deep root and love for language and words, I decided to be committed to NLP and NLU with human-like conceptual-level understanding and reasoning;
