@@ -1,5 +1,5 @@
 <html><head><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes'><style>body {color: black;font-family:\(fontName);font-size:\(fontSize)px;}</style></head><body>
-<h2>Privacy Policy for iOS app Bilingual French Classics and 双语莎士比亚</h2>
+<h2>Privacy Policy for iOS apps Bilingual French Classics and 双语莎士比亚</h2>
 <p>Your privacy is important to us. It is AILabby.com's policy to respect your privacy regarding any information we may collect from you through our apps, Bilingual French Classics and 双语莎士比亚.</p>
 <p>We do not ask for any personal information, directly or indirectly, except when you send us your feedback via email when you have to provide your email address. </p>
 <p>We only retain your email address for as long as necessary to respond to your feedback. We will protect your email address within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
