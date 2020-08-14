@@ -8,7 +8,7 @@
 # Site settings
 title: AiLabBy - AILab & Beyond
 email: jeff@ailabby.com
-description: "Deep Learning and NLU on Mobile and in the Cloud"
+description: "AILabby: Deep Learning and NLU on Mobile and in the Cloud"
 topics: "AI, DL, ML, NLU, Mobile"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
