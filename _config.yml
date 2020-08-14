@@ -8,8 +8,8 @@
 # Site settings
 title: AiLabBy - AILab & Beyond
 email: jeff@ailabby.com
-description: "Building True AI with NLU and Common Sense"
-topics: "Mobile, NLU, Common Sense"
+description: "Deep Learning and NLU on Mobile and in the Cloud"
+topics: "AI, DL, ML, NLU, Mobile"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffxtang.github.io" # the base hostname & protocol for your site
 twitter_username: jeffxtang
