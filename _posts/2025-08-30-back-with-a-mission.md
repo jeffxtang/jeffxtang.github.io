@@ -23,6 +23,7 @@ What problems are worth your “life’s work”?*
 
 and the TL;DR:
 
+*
 | **Big Projects**                 | **Small Tasks**                        |
 | -------------------------------- | -------------------------------------- |
 | Move the needle                  | Train attention, humility, consistency |
@@ -30,6 +31,7 @@ and the TL;DR:
 | Must be prioritized              | Should be scoped, delegated, reframed  |
 | Define legacy                    | Shape character                        |
 | -------------------------------- | -------------------------------------- |
+*
 
 <p>
 
