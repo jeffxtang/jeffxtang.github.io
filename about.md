@@ -10,3 +10,5 @@ I fell in love with AI more than two decades ago, and worked on TRANSTAR, the fi
 This blog is about my long and exciting journey ahead, starting with my first goal of building the cutting-edge AI solutions on mobile, towards my long-term goal of building true AI systems with human-like natural language understanding and common sense, which is one of the most important and challenging questions facing AI, perfect for someone who's a little crazy and has a slight disdain for the impossible to dedicate himself to.
 
 *The word "labby" in the domain name ailabby.com comes from my Labrador Retriever born in May 2015 when I reconnected with AI. I hope AI systems will be as sweet and swift as my Labby, but with human language capability. ailabby also means ai lab and beyond: my ultimate goal is to build science-based engineering systems with true human-like intelligence.*
+
+May 16, 2016
