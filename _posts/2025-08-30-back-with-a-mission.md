@@ -14,7 +14,14 @@ Another 5 years have passed. Here's a summary of what happened after I wrote in 
 
 3. I started working at Meta as a GenAI engineer in 2023 building Llama powered GenAI apps using prompt engineering, RAG, fine-tuning, and agents, as well as the course content of 3 Llama courses on Deeplearning.ai.
 
-So many crazy things have happened since Nov 2022. So many more crazier things will happen in the coming years. I asked AI the other day about a French phrase "Y a pas de petits rôles, y a que des petits acteurs", one favirote line in my favotite French TV show Call My Agent, with the English translation "There are no small roles, only small actors." and how to have a balance of working on the most important problems the most challenging and ambitious projects versus being committed to seemingly unrelated small projects, and got the following TL;DR:
+So many crazy things have happened since Nov 2022. So many more crazier things will happen in the coming years. I once asked AI about a French phrase "Y a pas de petits rôles, y a que des petits acteurs", one favirote line in my favotite French TV show Call My Agent, with the English translation "There are no small roles, only small actors." and I asked how to have a balance of working on the most important, challenging and ambitious projects versus being always willing to help on even unrelated small projects, and got the following tip:
+
+Know Your North Star - Before you can balance anything, you need clarity on:
+What are your most important long-term goals?
+What kind of impact do you want to have?
+What problems are worth your “life’s work”?
+
+and the TL;DR:
 
 | **Big Projects**                 | **Small Tasks**                        |
 | -------------------------------- | -------------------------------------- |
