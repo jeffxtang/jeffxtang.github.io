@@ -23,7 +23,7 @@ What problems are worth your “life’s work”?*
 
 and the TL;DR:
 
-    | **Big Projects**                 | **Small Tasks**                        |
+    | Big Projects                     | Small Tasks                            |
     | -------------------------------- | -------------------------------------- |
     | Move the needle                  | Train attention, humility, consistency |
     | Require focus, vision, deep work | Can build trust, team, or momentum     |
