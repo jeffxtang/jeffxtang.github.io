@@ -14,7 +14,7 @@ Another 5 years have passed. Here's a summary of what happened after I wrote in 
 
 3. I started working at Meta as a GenAI engineer in 2023 building Llama powered GenAI apps using prompt engineering, RAG, fine-tuning, and agents, the code and content of all 3 Llama courses on Deeplearning.ai, and iOS apps running on-device Llama and Llava models and calling OpenAI Realtime API with WebSocket and WebRTC for audio chat.
 
-So many crazy things have happened since Nov 2022. So many more crazier things will happen in the coming years. I once asked AI about a French phrase "Y a pas de petits rôles, y a que des petits acteurs", one favirote line in my favotite French TV show Call My Agent, with the English translation "There are no small roles, only small actors." and I asked how to have a balance of working on the most important, challenging and ambitious projects versus being always willing to help on even unrelated small projects, and got the following tip:
+So many crazy things have happened since Nov 2022. So many more crazier things will happen in the coming years. I once asked AI about a French phrase "Y a pas de petits rôles, y a que des petits acteurs.", one favirote line in my favotite French TV show Call My Agent, with the English translation "There are no small roles, only small actors." and I asked how to have a balance of working on the most important, challenging and ambitious projects versus being always willing to help on even unrelated small projects, and got the following tip:
 
 *Know Your North Star. Before you can balance anything, you need clarity on:
 What are your most important long-term goals?
@@ -50,10 +50,10 @@ and the TL;DR:
       </tr>
     </tbody>
   </table>
-</div>
+</div><p>
 
 
-<p>First time I heard of someone saying one's work path ideally should be job, career, and mission was about 10 years ago. I always remember Godfather's simple yet powerful saying "I'll reason with him" and have been fasicinated with all kinds reasoning: deductive, inductive, abductive, commonsense, causal, etc (One of my recent favorite books is Logical Chess by Irving Chernev and one graduate AI course I took was Non-monotonic Reasoning); RL or learning through trial and error is my favotite way of learning (I bought a copy of the classical RL: An Intro book in 2005 while working at Baidu doing non-AI related work then).
+<p>First time I heard of someone saying one's work path ideally should be job, career, and mission was about 10 years ago. I always remember Godfather's simple yet powerful saying "I'll reason with him" and have been fasicinated with all kinds reasoning: deductive, inductive, abductive, commonsense, causal, etc (One of my recent favorite books is Logical Chess by Irving Chernev and one graduate AI course I took was Non-monotonic Reasoning); RL or learning through trial and error is my favotite way of learning (I bought a copy of the classical RL: An Intro book in 2005 while working at Baidu before the modern AI took off).
 
 <p>Let me be on a new mission for the next 5-8 years. Let me focus and keep working on open, high-impact problems in AI, starting with reasoning and modern RL for LLMs.
 
