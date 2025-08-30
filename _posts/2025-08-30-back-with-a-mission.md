@@ -23,14 +23,15 @@ What problems are worth your “life’s work”?*
 
 and the TL;DR:
 
-| **Big Projects**                 | **Small Tasks**                        |
-| -------------------------------- | -------------------------------------- |
-| Move the needle                  | Train attention, humility, consistency |
-| Require focus, vision, deep work | Can build trust, team, or momentum     |
-| Must be prioritized              | Should be scoped, delegated, reframed  |
-| Define legacy                    | Shape character                        |
-| -------------------------------- | -------------------------------------- |
+    | **Big Projects**                 | **Small Tasks**                        |
+    | -------------------------------- | -------------------------------------- |
+    | Move the needle                  | Train attention, humility, consistency |
+    | Require focus, vision, deep work | Can build trust, team, or momentum     |
+    | Must be prioritized              | Should be scoped, delegated, reframed  |
+    | Define legacy                    | Shape character                        |
+    | -------------------------------- | -------------------------------------- |
 
+  <p>
 
 <p>First time I heard of someone saying one's work path ideally should be job, career, and mission was about 10 years ago. I always remember Godfather's simple yet powerful saying "I'll reason with him" and have been fasicinated with all kinds reasoning: deductive, inductive, abductive, commonsense, causal, etc (One of my recent favorite books is Logical Chess by Irving Chernev and one graduate AI course I took was Non-monotonic Reasoning); RL or learning through trial and error is my favotite way of learning (I bought a copy of the classical RL: An Intro book in 2005 while working at Baidu doing non-AI related work then).
 
