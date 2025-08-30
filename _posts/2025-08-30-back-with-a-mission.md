@@ -12,7 +12,7 @@ Another 5 years have passed. Here's a summary of what happened after I wrote in 
 
 2. I registered a domain name polygbot.com (for ployglot chatbot) for my chatbot simulating a 5-year-old's NLU & NLG capabilities, worked on the chatbot using hybrid AI methods with rule-based and DL. Then I unregistered the domain name after the disruptive ChatGPT was launched in Nov 2022, literaly making my mission of 2020 “Building True AI with NLU and Common Sense" a shocking reality, albeit its imperfection.
 
-3. I started working at Meta as a GenAI engineer in 2023 building Llama powered GenAI apps using prompt engineering, RAG, fine-tuning, and agents, as well as the course content of 3 Llama courses on Deeplearning.ai.
+3. I started working at Meta as a GenAI engineer in 2023 building Llama powered GenAI apps using prompt engineering, RAG, fine-tuning, and agents, the code and content of all 3 Llama courses on Deeplearning.ai, and iOS apps running on-device Llama and Llava models and calling OpenAI Realtime API with WebSocket and WebRTC for audio chat.
 
 So many crazy things have happened since Nov 2022. So many more crazier things will happen in the coming years. I once asked AI about a French phrase "Y a pas de petits rôles, y a que des petits acteurs", one favirote line in my favotite French TV show Call My Agent, with the English translation "There are no small roles, only small actors." and I asked how to have a balance of working on the most important, challenging and ambitious projects versus being always willing to help on even unrelated small projects, and got the following tip:
 
@@ -23,15 +23,35 @@ What problems are worth your “life’s work”?*
 
 and the TL;DR:
 
-    | Big Projects                     | Small Tasks                            |
-    | -------------------------------- | -------------------------------------- |
-    | Move the needle                  | Train attention, humility, consistency |
-    | Require focus, vision, deep work | Can build trust, team, or momentum     |
-    | Must be prioritized              | Should be scoped, delegated, reframed  |
-    | Define legacy                    | Shape character                        |
-    | -------------------------------- | -------------------------------------- |
+<div style="overflow-x:auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>Big Projects</th>
+        <th>Small Tasks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Move the needle</td>
+        <td>Train attention, humility, consistency</td>
+      </tr>
+      <tr>
+        <td>Require focus, vision, deep work</td>
+        <td>Can build trust, team, or momentum</td>
+      </tr>
+      <tr>
+        <td>Must be prioritized</td>
+        <td>Should be scoped, delegated, reframed</td>
+      </tr>
+      <tr>
+        <td>Define legacy</td>
+        <td>Shape character</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-  <p>
 
 <p>First time I heard of someone saying one's work path ideally should be job, career, and mission was about 10 years ago. I always remember Godfather's simple yet powerful saying "I'll reason with him" and have been fasicinated with all kinds reasoning: deductive, inductive, abductive, commonsense, causal, etc (One of my recent favorite books is Logical Chess by Irving Chernev and one graduate AI course I took was Non-monotonic Reasoning); RL or learning through trial and error is my favotite way of learning (I bought a copy of the classical RL: An Intro book in 2005 while working at Baidu doing non-AI related work then).
 
