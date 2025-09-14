@@ -55,8 +55,8 @@ and the TL;DR:
 </div><p>
 
 
-<p>First time I heard of someone saying one's work path ideally should be job, career, and mission was about 10 years ago. I always remember Godfather's simple yet powerful saying "I'll reason with him" and have been fasicinated with all kinds reasoning: deductive, inductive, abductive, commonsense, causal, etc (One book I love reading is Logical Chess by Irving Chernev and one graduate AI course I took was Non-monotonic Reasoning); RL or learning through trial and error is my favorite way of learning (I bought a copy of the classical RL: An Intro book in 2005 while working at Baidu before the modern AI took off).
+<p>First time I heard of someone saying one's work path ideally should be job, career, and mission was about 10 years ago. I always remember Godfather's simple yet powerful saying "I'll reason with him" and have been fasicinated with all kinds reasoning: deductive, inductive, abductive, commonsense, causal, and more recently CoT (One book I love reading is Logical Chess by Irving Chernev and one graduate AI course I took was Non-monotonic Reasoning); RL or learning through trial and error is my favorite way of learning (I bought a copy of the classical RL: An Intro book in 2005 while working at Baidu before the modern AI took off).
 
-<p>Let me be on a new mission for the next 5-8 years. Let me focus relentlessly on open, high-impact problems in AI, starting with reasoning and modern RL for LLMs. Let me build innovative AI products with awesome UX powered by that focus.
+<p>So let me be on a new mission for the next 5-8 years. Let me focus relentlessly on open, high-impact problems in AI, starting with reasoning and modern RL for LLMs. Let me build innovative AI products with awesome UX powered by that focus.
 
 
